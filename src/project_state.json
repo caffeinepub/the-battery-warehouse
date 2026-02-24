@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 11,
+  "summary": "A website for The Battery Warehouse - a dealer of Eastman inverters, batteries, and car/truck batteries at low prices",
+  "architectural_notes": [
+    "E-commerce website showcasing Eastman inverters and batteries",
+    "Product categories: inverters, car batteries, truck batteries",
+    "Emphasis on low price positioning",
+    "Owner contact details: Raza (7079860205, thebatterywarehouseghy@gmail.com)",
+    "Business address: Santi Path, AK Deb Road, Katabari, Guwahati, Assam 781035"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-homepage-with-header-displaying-the-battery-warehouse-branding-navigation-menu-hero-section-introducing-the-business-as-a-dealer-of-eastman-inverters-and-batteries-for-cars-and-trucks-and-emphasis-on-low-prices",
+      "title": "Create a homepage with header displaying 'The Battery Warehouse' branding, navigation menu, hero section introducing the business as a dealer of Eastman inverters and batteries for cars and trucks, and emphasis on low prices",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-products-section-showcasing-three-main-product-categories-eastman-inverters-car-batteries-and-truck-batteries-with-imagery-and-brief-descriptions",
+      "title": "Create a products section showcasing three main product categories: Eastman inverters, car batteries, and truck batteries, with imagery and brief descriptions",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-pricing-or-value-proposition-section-highlighting-competitive-low-prices-and-affordability",
+      "title": "Add a pricing or value proposition section highlighting competitive low prices and affordability",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-with-business-contact-information-and-a-contact-form-for-customer-inquiries",
+      "title": "Create a contact section with business contact information and a contact form for customer inquiries",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-footer-with-business-information-quick-links-and-social-media-placeholders",
+      "title": "Implement a footer with business information, quick links, and social media placeholders",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-the-website-with-a-professional-industrial-aesthetic-using-warm-energetic-colors-avoiding-blue-and-purple-strong-typography-and-clean-layouts-that-convey-reliability-and-value-in-the-automotive-power-supply-industry",
+      "title": "Design the website with a professional, industrial aesthetic using warm, energetic colors (avoiding blue and purple), strong typography, and clean layouts that convey reliability and value in the automotive/power supply industry",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contactsection-component-to-display-the-owner-name-raza-mobile-number-7079860205-and-email-thebatterywarehouseghy-gmail-com-fetched-from-the-backend-in-the-contact-information-display-area",
+      "title": "Update the ContactSection component to display the owner name 'Raza', mobile number '7079860205', and email 'thebatterywarehouseghy@gmail.com' fetched from the backend in the contact information display area",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contactsection-component-to-display-the-business-address-fetched-from-the-backend-below-the-existing-contact-information-name-phone-email",
+      "title": "Update the ContactSection component to display the business address fetched from the backend below the existing contact information (name, phone, email)",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contactsection-component-to-display-the-mobile-number-in-the-format-mob-no-7079860205-instead-of-just-the-phone-number",
+      "title": "Update the ContactSection component to display the mobile number in the format 'Mob. No.7079860205' instead of just the phone number",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contactsection-component-to-display-the-email-as-gmail-thebatterywarehouseghy-gmail-com-with-the-gmail-prefix",
+      "title": "Update the ContactSection component to display the email as 'gmail-thebatterywarehouseghy@gmail.com' with the 'gmail-' prefix",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contactsection-component-to-display-the-mobile-number-with-the-prefix-reg-mobile-no-7079860205-instead-of-mob-no-7079860205",
+      "title": "Update the ContactSection component to display the mobile number with the prefix 'Reg. Mobile No.7079860205' instead of 'Mob. No.7079860205'",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create website for battery dealership",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add owner contact information: Raza, mobile 7079860205, email thebatterywarehouseghy@gmail.com",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Update the backend ContactInfo type and getContactInfo query to return owner name 'Raza', mobile number '7079860205', and email 'thebatterywarehouseghy@gmail.com' instead of the current hardcoded placeholder values",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add business address: Santi Path, AK Deb Road, Katabari, Guwahati, Assam 781035",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Update the backend ContactInfo type to include an 'address' field of type Text",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Update the getContactInfo query to return the address 'Santi Path, AK Deb Road, Katabari, Guwahati, Assam 781035' as part of the ContactInfo response",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Create a migration in backend/migration.mo to add the address field to existing ContactInfo data during canister upgrade",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Display mobile number as 'Reg. Mobile No.7079860205' instead of 'Mob. No.7079860205'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Ensure email displays as 'gmail-thebatterywarehouseghy@gmail.com' with the 'gmail-' prefix",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "The Battery Warehouse",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

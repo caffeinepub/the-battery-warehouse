@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Motoko actor defining ContactInfo and Inquiry types, exposing a query to retrieve hardcoded business contact details and a shared function to accept inquiry submissions (no storage).",
+  "feature_evidence.json": "Feature evidence report documenting a completed change to ContactSection.tsx that updates the mobile number prefix from 'Mob. No.' to 'Reg. Mobile No.'.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend source files describing component structure, styling approach, and backend integration hooks.",
+  "frontend/index.css": "Tailwind CSS base layer defining OKLCH color variables for light and dark modes with a warm, neutral palette (no blues or purples).",
+  "frontend/index.html": "HTML entry point with viewport meta, page title 'The Battery Warehouse', and script tag loading the React app from main.tsx.",
+  "frontend/src/App.tsx": "Root React component composing Header, Hero, ProductsSection, ValueProposition, ContactSection, and Footer into a single-page layout.",
+  "frontend/src/components/ContactSection.tsx": "Contact section component displaying business info fetched from backend (with 'Reg. Mobile No.' and 'gmail-' prefixes) and an inquiry form with loading/success states.",
+  "frontend/src/components/Footer.tsx": "Footer with branding, navigation links, product categories, social media icons, and Caffeine attribution link with UTM parameters.",
+  "frontend/src/components/Header.tsx": "Sticky header with logo, business name, responsive navigation menu (desktop and mobile hamburger), and smooth-scroll section links.",
+  "frontend/src/components/Hero.tsx": "Hero section with background image overlay, headline emphasizing Eastman products and low prices, CTA buttons, and feature pills.",
+  "frontend/src/components/ProductsSection.tsx": "React component displaying three product categories (Eastman Inverters, Car Batteries, Truck Batteries) in a grid layout with cards showing images, icons, descriptions, and feature lists.",
+  "frontend/src/components/ValueProposition.tsx": "React component showcasing four value propositions (Unbeatable Prices, Quality Guaranteed, Fast Service, Expert Advice) with icons and a highlighted banner emphasizing warehouse pricing for batteries.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that manages the ICP backend actor instance, creating authenticated or anonymous actors based on Internet Identity state and invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Custom React hook and provider for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Custom React hooks wrapping TanStack Query for fetching contact info and submitting inquiries via the ICP backend actor.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a warm industrial color palette (burnt orange primary, warm grays) for both light and dark modes using OKLCH color space.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClientProvider and InternetIdentityProvider wrapping the main App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom colors using OKLCH values, container settings, Inter font family, custom shadows, and accordion animations.",
+  "project_state.json": "Project metadata tracking The Battery Warehouse website features, including homepage, product sections, contact info, and design requirements with warm industrial aesthetic for an Eastman battery dealer in Guwahati."
+}

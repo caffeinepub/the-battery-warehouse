@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-contactsection-component-to-display-the-mobile-number-with-the-prefix-reg-mobile-no-7079860205-instead-of-mob-no-7079860205",
+      "featureTitle": "Update the ContactSection component to display the mobile number with the prefix 'Reg. Mobile No.7079860205' instead of 'Mob. No.7079860205'",
+      "files": [
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

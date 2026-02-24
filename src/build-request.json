@@ -1,0 +1,39 @@
+{
+  "kind": "build_request",
+  "title": "Update mobile number label to 'Reg. Mobile No.'",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-15",
+      "text": "Update the ContactSection component to display the mobile number with the prefix 'Reg. Mobile No.7079860205' instead of 'Mob. No.7079860205'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "Add reg. Mobile no 7079860205"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The contact information display shows 'Reg. Mobile No.7079860205' for the phone number",
+        "The email continues to display as 'gmail-thebatterywarehouseghy@gmail.com' with the gmail- prefix",
+        "No other contact information formatting is changed"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the backend ContactInfo data structure or values",
+    "Preserve the existing email formatting with 'gmail-' prefix",
+    "Only change the mobile number label prefix from 'Mob. No.' to 'Reg. Mobile No.'"
+  ],
+  "nonGoals": [
+    "Changing the actual phone number or email address values",
+    "Modifying other contact information fields",
+    "Updating backend logic or data structures"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

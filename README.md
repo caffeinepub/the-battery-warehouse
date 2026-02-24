@@ -1,2 +1,3 @@
-# the-battery-warehouse
-Exported from Caffeine project: The Battery Warehouse
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

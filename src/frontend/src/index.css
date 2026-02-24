@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        /* Warm industrial palette - light mode */
+        --background: 0.98 0 0;
+        --foreground: 0.15 0 0;
+        --card: 1 0 0;
+        --card-foreground: 0.15 0 0;
+        --popover: 1 0 0;
+        --popover-foreground: 0.15 0 0;
+        /* Primary: Deep burnt orange */
+        --primary: 0.52 0.18 35;
+        --primary-foreground: 0.98 0 0;
+        /* Secondary: Warm gray */
+        --secondary: 0.92 0.01 50;
+        --secondary-foreground: 0.15 0 0;
+        /* Muted: Light warm gray */
+        --muted: 0.95 0.01 50;
+        --muted-foreground: 0.50 0.02 40;
+        /* Accent: Energetic amber */
+        --accent: 0.88 0.12 60;
+        --accent-foreground: 0.20 0 0;
+        /* Destructive: Red */
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 0.98 0 0;
+        /* Borders and inputs */
+        --border: 0.88 0.01 50;
+        --input: 0.88 0.01 50;
+        --ring: 0.52 0.18 35;
+        /* Charts */
+        --chart-1: 0.52 0.18 35;
+        --chart-2: 0.65 0.15 45;
+        --chart-3: 0.75 0.12 55;
+        --chart-4: 0.45 0.20 30;
+        --chart-5: 0.60 0.16 40;
+    }
+
+    .dark {
+        /* Dark mode with warm industrial tones */
+        --background: 0.12 0.01 30;
+        --foreground: 0.95 0.01 50;
+        --card: 0.18 0.01 30;
+        --card-foreground: 0.95 0.01 50;
+        --popover: 0.15 0.01 30;
+        --popover-foreground: 0.95 0.01 50;
+        /* Primary: Bright orange */
+        --primary: 0.68 0.20 40;
+        --primary-foreground: 0.12 0 0;
+        /* Secondary: Dark warm gray */
+        --secondary: 0.25 0.01 35;
+        --secondary-foreground: 0.95 0.01 50;
+        /* Muted: Medium warm gray */
+        --muted: 0.22 0.01 35;
+        --muted-foreground: 0.65 0.02 45;
+        /* Accent: Warm amber */
+        --accent: 0.35 0.08 50;
+        --accent-foreground: 0.95 0.01 50;
+        /* Destructive: Bright red */
+        --destructive: 0.60 0.24 28;
+        --destructive-foreground: 0.95 0 0;
+        /* Borders and inputs */
+        --border: 0.25 0.01 35;
+        --input: 0.25 0.01 35;
+        --ring: 0.68 0.20 40;
+        /* Charts */
+        --chart-1: 0.68 0.20 40;
+        --chart-2: 0.75 0.18 50;
+        --chart-3: 0.82 0.15 60;
+        --chart-4: 0.55 0.22 35;
+        --chart-5: 0.65 0.19 45;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold;
+        letter-spacing: -0.02em;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}

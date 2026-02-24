@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component that composes all page sections (Header, Hero, Products, Value Proposition, Contact, Footer) into a single-page layout with smooth scrolling navigation.",
+  "frontend/src/components/Header.tsx": "Sticky header component with logo, business name, and responsive navigation menu that smoothly scrolls to page sections; includes mobile hamburger menu.",
+  "frontend/src/components/Hero.tsx": "Hero section with background image overlay, headline emphasizing Eastman products and low prices, CTA buttons, and feature pills highlighting key value propositions.",
+  "frontend/src/components/ProductsSection.tsx": "Product showcase section displaying three categories (Eastman inverters, car batteries, truck batteries) using Card components with images, descriptions, and feature lists.",
+  "frontend/src/components/ValueProposition.tsx": "Value proposition section highlighting four key benefits (unbeatable prices, quality guarantee, fast service, expert advice) with icons and a prominent pricing banner.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with business information (owner name, phone with 'Reg. Mobile No.' prefix, email with 'gmail-' prefix, address) fetched from backend and an inquiry form that submits to backend; includes loading states and success/error feedback.",
+  "frontend/src/components/Footer.tsx": "Footer component with branding, quick navigation links, product categories, social media placeholders, and required Caffeine attribution with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including useContactInfo to fetch contact details and useSubmitInquiry mutation for form submissions.",
+  "frontend/src/index.css": "Global styles with warm industrial color palette using OKLCH (burnt orange primary, warm grays, amber accents) for both light and dark modes, avoiding blue and purple tones.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with warm industrial color tokens, Inter font family, custom border radius, and warm shadow utilities for cohesive design system."
+}
